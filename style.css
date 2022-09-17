@@ -199,6 +199,56 @@ nav ul li a:hover,
   padding: 20px;
 }
 
+.contact-form {
+  text-align: center;
+  position: relative;
+  top: 12vh;
+  font-family: 'Playfair Display', serif;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 430px;
+  padding: 20px;
+}
+
+.contact-form label {
+  font-family: 'Playfair Display', serif;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  padding: 10px;
+  box-shadow: rgba(128, 128, 128, 0.2) 0px 7px 29px 0px;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  opacity: 70%;
+  transition: 0.2s ease-in-out;
+}
+
+.contact-form input:hover,
+.contact-form textarea:hover {
+  opacity: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+}
+
+#message-area {
+  resize: none;
+  width: 360px;
+  height: 260px;
+  font-family: 'Playfair Display', serif;
+}
+
+#input {
+  height: 40px;
+  width: 360px;
+  font-family: 'Playfair Display', serif;
+}
+
 @media only screen and (max-width: 870px) {
   .about-section p {
     margin-left: 10vh;
@@ -207,6 +257,28 @@ nav ul li a:hover,
 }
 
 @media only screen and (max-width: 508px) {
+  .fa-sharp {
+    display: inline;
+  }
+  .scroll-down-btn {
+    left: 48.3%;
+  }
+  .about-section p {
+    margin-left: 3vh;
+    margin-right: 3vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #text-above {
+    font-size: 35px;
+    font-weight: 100;
+  }
+
+  #text-below {
+    font-size: 17px;
+    font-weight: 100;
+  }
   .fa-sharp {
     display: inline;
   }
